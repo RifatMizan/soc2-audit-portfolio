@@ -219,3 +219,72 @@ Evaluate whether access rights are properly approved, periodically reviewed, mod
 Investigate discrepancies and obtain additional evidence before concluding whether a control exception exists.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+### 6.3 Control 5.23 – Information Security for Use of Cloud Services
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 5.23
+
+**Control Name:** Information Security for Use of Cloud Services
+
+**Control Objective:**
+
+To ensure that information security requirements are established and implemented throughout the acquisition, use, management, and exit processes of cloud services.
+
+**Risk Identified:**
+
+Inadequate governance and security management of cloud services may result in unauthorized access, data exposure, insecure configurations, regulatory non-compliance, or loss of business information.
+
+**Expected Control Activities:**
+
+1. The organization maintains an inventory of approved cloud services.
+2. Cloud service providers undergo appropriate security and risk assessments before engagement.
+3. Information security requirements are defined in cloud service agreements.
+4. Responsibilities between the organization and cloud service providers are documented.
+5. Cloud configurations and security settings are reviewed periodically.
+6. Data protection, backup, and access management requirements are established.
+7. Cloud service termination and data retrieval procedures are documented.
+
+**Audit Procedures:**
+
+1. Obtain the inventory of cloud services used by the organization.
+2. Identify critical cloud platforms, including Microsoft Azure and relevant SaaS applications.
+3. Review cloud service provider due diligence and security assessment documentation.
+4. Inspect cloud service agreements for relevant information security requirements.
+5. Review the documented shared responsibility matrix between the organization and cloud service providers.
+6. Inspect evidence of periodic cloud security configuration reviews.
+7. Verify whether cloud access is restricted to authorized personnel.
+8. Review documented cloud service termination and data retrieval procedures.
+
+**Evidence Required:**
+
+- Cloud Service Management Policy.
+- Approved cloud service inventory.
+- Cloud service provider risk assessment reports.
+- Cloud service agreements and contractual security clauses.
+- Shared responsibility matrix.
+- Microsoft Azure security configuration review reports.
+- Cloud access review records.
+- Cloud service termination and data retrieval procedures.
+
+**Sample Testing Approach:**
+
+For this illustrative assessment, select the following samples:
+
+| Sample | Sample Size | Testing Objective |
+|---|---:|---|
+| Cloud service providers | 3 | Verify security assessment and approval |
+| Critical cloud services | 2 | Review security requirements and responsibilities |
+| Cloud configuration reviews | 2 review records | Verify periodic security reviews |
+| Cloud service agreements | 2 | Verify contractual security requirements |
+
+The sample sizes are illustrative and should be adjusted based on the cloud service population, risk assessment, and audit methodology.
+
+**Assessment Considerations:**
+
+Evaluate whether cloud services are formally approved, security risks are assessed, responsibilities are documented, and security requirements are monitored throughout the cloud service lifecycle.
+
+Where technical configuration evidence is reviewed, validate the relevant settings against the organization's approved security baseline.
+
+**Preliminary Assessment Status:** Not Tested.
