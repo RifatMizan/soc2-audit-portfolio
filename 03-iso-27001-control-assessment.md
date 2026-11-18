@@ -152,3 +152,70 @@ Evaluate whether the documented policy is approved, communicated, and supported 
 The final control rating should be determined after reviewing the actual supporting evidence and completing sample testing.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+### 6.2 Control 5.18 – Access Rights
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 5.18
+
+**Control Name:** Access Rights
+
+**Control Objective:**
+
+To ensure that access rights to information and associated assets are provisioned, reviewed, modified, and removed in accordance with the organization's access control policy and business requirements.
+
+**Risk Identified:**
+
+Failure to appropriately manage user access rights may result in unauthorized system access, excessive privileges, unauthorized information disclosure, or continued access by former employees.
+
+**Expected Control Activities:**
+
+1. User access requests are formally initiated and approved by authorized personnel.
+2. Access rights are assigned based on job responsibilities and the principle of least privilege.
+3. User access rights are reviewed periodically by designated business or system owners.
+4. Access rights are modified when employees change roles or responsibilities.
+5. User access is revoked promptly upon employee termination or when access is no longer required.
+6. Evidence of access reviews and access modifications is retained.
+
+**Audit Procedures:**
+
+1. Obtain the user access management policy and procedures.
+2. Obtain the employee master list and user access listing from relevant business applications.
+3. Review a sample of new employee access requests and verify management approval.
+4. Select a sample of employees who changed roles and verify whether their access rights were appropriately modified.
+5. Obtain a list of terminated employees and verify whether their system access was revoked.
+6. Inspect periodic user access review records and verify evidence of review and approval.
+7. Investigate any identified discrepancies between employee status and active system accounts.
+
+**Evidence Required:**
+
+- User Access Management Policy.
+- Employee master list.
+- Application user access listing.
+- New user access request forms.
+- Access modification and removal records.
+- Employee termination records.
+- Periodic user access review reports.
+- Evidence of management review and approval.
+
+**Sample Testing Approach:**
+
+For this illustrative assessment, the following samples will be considered:
+
+| Population | Sample Size | Testing Objective |
+|---|---:|---|
+| Newly created user accounts | 5 | Verify access approval |
+| Employees with role changes | 3 | Verify access modification |
+| Terminated employees | 3 | Verify timely access removal |
+| Periodic access reviews | 1 review cycle | Verify review and approval |
+
+The samples should be selected from complete and reliable populations. The sample sizes are illustrative and should be adjusted based on risk, population size, and audit methodology.
+
+**Assessment Considerations:**
+
+Evaluate whether access rights are properly approved, periodically reviewed, modified when job responsibilities change, and removed when no longer required.
+
+Investigate discrepancies and obtain additional evidence before concluding whether a control exception exists.
+
+**Preliminary Assessment Status:** Not Tested.
