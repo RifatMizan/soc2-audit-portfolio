@@ -91,3 +91,64 @@ The following rating scale will be used for this sample assessment:
 **Important:** Final ratings will be assigned only after reviewing the relevant evidence and completing the audit procedures. The ratings in this portfolio will be illustrative, not actual audit conclusions.
 
 **Note:** This is a simulated portfolio assessment using fictional organizational information and illustrative audit evidence. It does not represent an actual ISO certification audit or independent assessment of a real organization.
+
+
+
+
+## 6. Detailed Control Assessment
+
+### 6.1 Control 5.15 – Access Control
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 5.15
+
+**Control Name:** Access Control
+
+**Control Objective:**
+
+To ensure that access to information and associated assets is restricted according to business requirements and information security policies.
+
+**Risk Identified:**
+
+Inadequate access control mechanisms may allow unauthorized individuals to access confidential company information, resulting in data breaches, unauthorized modifications, or information disclosure.
+
+**Expected Control Activities:**
+
+1. The organization maintains a documented access control policy.
+2. Access to business applications and information systems is restricted based on business requirements.
+3. Access permissions are approved by authorized personnel.
+4. User access is assigned according to defined roles and responsibilities.
+5. Access restrictions are communicated to relevant employees and system administrators.
+
+**Audit Procedures:**
+
+1. Obtain and review the organization's approved Access Control Policy.
+2. Verify whether access control requirements are documented and communicated.
+3. Review user access provisioning procedures.
+4. Select a sample of user accounts from the organization's business applications.
+5. Verify whether access permissions are appropriate to users' job responsibilities.
+6. Inspect evidence of management approval for selected user access requests.
+
+**Evidence Required:**
+
+- Approved Access Control Policy.
+- User access provisioning procedure.
+- User access listing from business applications.
+- Sample user access request forms.
+- Management approval records.
+- Role-based access control (RBAC) configuration, where applicable.
+
+**Sample Testing Approach:**
+
+Select 10 user accounts from the business application user listing and verify:
+
+- Whether each user's access was formally approved.
+- Whether assigned permissions are consistent with job responsibilities.
+- Whether access is restricted according to the approved access control requirements.
+
+**Assessment Considerations:**
+
+Evaluate whether the documented policy is approved, communicated, and supported by implemented access restrictions.
+
+The final control rating should be determined after reviewing the actual supporting evidence and completing sample testing.
+
+**Preliminary Assessment Status:** Not Tested.
