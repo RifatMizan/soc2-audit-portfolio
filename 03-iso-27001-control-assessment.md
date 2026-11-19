@@ -359,3 +359,75 @@ Evaluate whether privileged access rights are appropriately authorized, restrict
 Investigate excessive privileges, unauthorized access, undocumented shared accounts, and gaps in monitoring.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+### 6.5 Control 8.13 – Information Backup
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 8.13
+
+**Control Name:** Information Backup
+
+**Control Objective:**
+
+To maintain backup copies of information, software, and systems and test them regularly in accordance with the organization's agreed backup policy.
+
+**Risk Identified:**
+
+Inadequate backup procedures, unsuccessful backup jobs, insufficient backup protection, or ineffective restoration processes may result in data loss, prolonged business disruption, and inability to recover critical business systems.
+
+**Expected Control Activities:**
+
+1. An approved backup policy defines backup requirements.
+2. Critical systems and information are identified for backup.
+3. Backup frequency is established based on business requirements.
+4. Backup jobs are monitored for successful completion.
+5. Failed backup jobs are investigated and resolved.
+6. Backup retention requirements are documented and implemented.
+7. Backup copies are protected against unauthorized access, alteration, or deletion.
+8. Restoration tests are performed periodically to validate recoverability.
+
+**Audit Procedures:**
+
+1. Obtain the approved Backup Policy and relevant procedures.
+2. Identify critical business systems and databases subject to backup.
+3. Review backup schedules and defined backup frequencies.
+4. Obtain backup job logs for the selected assessment period.
+5. Verify whether backup job failures are identified, investigated, and resolved.
+6. Review backup retention configurations against approved requirements.
+7. Inspect evidence of backup protection, including access restrictions, where applicable.
+8. Obtain restoration test reports and verify whether restoration tests were successfully completed.
+9. Review whether identified restoration test issues were documented and resolved.
+
+**Evidence Required:**
+
+- Approved Backup Policy.
+- Backup schedule and configuration records.
+- Critical system and data inventory.
+- Backup job logs and status reports.
+- Backup failure incident and remediation records.
+- Backup retention configuration.
+- Backup access control records.
+- Restoration test reports.
+- Evidence of remediation for restoration test failures.
+
+**Sample Testing Approach:**
+
+For this illustrative assessment, select the following samples:
+
+| Sample | Sample Size | Testing Objective |
+|---|---:|---|
+| Critical systems | 3 | Verify inclusion in backup schedules |
+| Backup job records | 10 jobs | Verify completion and failure resolution |
+| Backup retention settings | 3 systems | Verify compliance with approved retention requirements |
+| Restoration tests | 2 test records | Verify evidence of successful restoration |
+
+The sample sizes are illustrative and should be adjusted based on the system population, criticality, risk, and audit methodology.
+
+**Assessment Considerations:**
+
+Evaluate whether critical information and systems are backed up according to defined requirements, backup failures are appropriately managed, backup copies are protected, and restoration testing demonstrates the ability to recover information.
+
+Investigate unsuccessful backup jobs, missing backup coverage, retention discrepancies, and unsuccessful restoration tests.
+
+**Preliminary Assessment Status:** Not Tested.
