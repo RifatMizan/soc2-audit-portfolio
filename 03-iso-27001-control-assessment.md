@@ -501,3 +501,32 @@ Evaluate whether relevant security events are logged, logs are appropriately pro
 Investigate gaps in logging coverage, inadequate log protection, missing monitoring evidence, and unresolved security events.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+## 7. Consolidated Control Assessment Summary
+
+**Assessment Disclaimer:** The assessment results below are simulated for portfolio demonstration purposes. They are based on hypothetical testing scenarios and do not represent an actual organizational audit.
+
+| Control ID | Control Name | Illustrative Result | Illustrative Observation |
+|---|---|---|---|
+| 5.15 | Access Control | Partially Effective | Approval evidence unavailable for one sampled user |
+| 5.18 | Access Rights | Partially Effective | Delayed access removal and incomplete review evidence |
+| 5.23 | Information Security for Use of Cloud Services | Partially Effective | Cloud security responsibilities not formally documented |
+| 8.2 | Privileged Access Rights | Partially Effective | Approval and periodic review evidence gaps |
+| 8.13 | Information Backup | Partially Effective | Backup failure resolution evidence unavailable |
+| 8.15 | Logging | Partially Effective | Monitoring evidence unavailable for one sampled application |
+
+### 7.1 Summary of Illustrative Assessment Results
+
+The simulated assessment scenarios identified potential weaknesses in access governance, privileged access management, cloud security governance, backup monitoring, and security log monitoring.
+
+The illustrative observations highlight the importance of maintaining documented approvals, performing periodic reviews, assigning clear security responsibilities, monitoring operational activities, and retaining audit evidence.
+
+The results are hypothetical and do not constitute actual control testing conclusions.
+
+### 7.2 Illustrative Assessment Rating
+
+For this portfolio scenario, the selected controls are classified as Partially Effective based on the hypothetical exceptions described in the individual control assessment sections.
+
+This classification is illustrative only. In an actual assessment, control ratings should be assigned based on evidence reviewed, testing performed, exception evaluation, and the applicable assessment methodology.
