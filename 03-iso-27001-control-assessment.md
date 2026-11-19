@@ -288,3 +288,74 @@ Evaluate whether cloud services are formally approved, security risks are assess
 Where technical configuration evidence is reviewed, validate the relevant settings against the organization's approved security baseline.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+
+
+### 6.4 Control 8.2 – Privileged Access Rights
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 8.2
+
+**Control Name:** Privileged Access Rights
+
+**Control Objective:**
+
+To restrict and manage the allocation and use of privileged access rights in accordance with the organization's access control policy.
+
+**Risk Identified:**
+
+Inadequately managed privileged accounts may result in unauthorized system configuration changes, unauthorized access to sensitive information, security control bypass, data manipulation, or disruption of critical business services.
+
+**Expected Control Activities:**
+
+1. Privileged accounts are identified and maintained in an inventory.
+2. Privileged access is granted based on business need and formal authorization.
+3. Privileged access is restricted to authorized personnel.
+4. Privileged access rights are reviewed periodically.
+5. Administrative activities are logged and monitored.
+6. Shared privileged accounts are restricted and appropriately controlled.
+7. Privileged access is revoked or modified when no longer required.
+
+**Audit Procedures:**
+
+1. Obtain the privileged user account listing from relevant systems and applications.
+2. Identify privileged accounts within the business applications and cloud environment.
+3. Verify whether privileged access is formally approved.
+4. Review the assigned permissions to determine whether they are appropriate for the user's job responsibilities.
+5. Inspect evidence of periodic privileged access reviews.
+6. Review privileged activity logging and monitoring arrangements.
+7. Identify shared, dormant, or unnecessary privileged accounts.
+8. Verify whether privileged access is modified or revoked when no longer required.
+
+**Evidence Required:**
+
+- Privileged Access Management Policy or procedure.
+- Privileged user account listing.
+- Privileged access request and approval records.
+- Administrator role assignments.
+- Privileged access review records.
+- Privileged activity logs.
+- Evidence of privileged account removal or modification.
+- Shared account management records, where applicable.
+
+**Sample Testing Approach:**
+
+For this illustrative assessment, select the following samples:
+
+| Sample | Sample Size | Testing Objective |
+|---|---:|---|
+| Privileged user accounts | 5 | Verify authorization and appropriate access |
+| Privileged access review | 1 review cycle | Verify periodic review and approval |
+| Privileged activity logs | 5 activities | Review evidence of monitoring |
+| Shared or service accounts | 3 accounts | Verify ownership and access restrictions |
+
+The sample sizes are illustrative and should be adjusted based on the privileged account population, risk, and audit methodology.
+
+**Assessment Considerations:**
+
+Evaluate whether privileged access rights are appropriately authorized, restricted, reviewed, and monitored.
+
+Investigate excessive privileges, unauthorized access, undocumented shared accounts, and gaps in monitoring.
+
+**Preliminary Assessment Status:** Not Tested.
