@@ -431,3 +431,73 @@ Evaluate whether critical information and systems are backed up according to def
 Investigate unsuccessful backup jobs, missing backup coverage, retention discrepancies, and unsuccessful restoration tests.
 
 **Preliminary Assessment Status:** Not Tested.
+
+
+
+### 6.6 Control 8.15 – Logging
+
+**Control Reference:** ISO/IEC 27001:2022 Annex A 8.15
+
+**Control Name:** Logging
+
+**Control Objective:**
+
+To ensure that logs recording activities, exceptions, faults, and other relevant events are produced, stored, protected, and analyzed.
+
+**Risk Identified:**
+
+Insufficient logging, inadequate log protection, or ineffective log monitoring may prevent the organization from detecting unauthorized activities, investigating security incidents, and identifying potential security breaches.
+
+**Expected Control Activities:**
+
+1. Relevant system and security events are logged.
+2. Logging requirements are defined for critical systems and applications.
+3. Logs are protected against unauthorized access, alteration, or deletion.
+4. Log retention requirements are documented and implemented.
+5. Security logs are reviewed or monitored according to defined requirements.
+6. Suspicious activities and identified security events are investigated.
+7. Logging and monitoring responsibilities are assigned to appropriate personnel.
+
+**Audit Procedures:**
+
+1. Obtain the Logging and Monitoring Policy or relevant procedures.
+2. Identify critical systems and applications subject to logging.
+3. Review the logging configurations of selected systems.
+4. Verify whether relevant security events are captured.
+5. Inspect log retention settings against approved requirements.
+6. Review access restrictions applicable to log repositories.
+7. Obtain evidence of log monitoring and review activities.
+8. Verify whether identified suspicious events or exceptions were investigated and documented.
+9. Review whether logging and monitoring responsibilities are clearly assigned.
+
+**Evidence Required:**
+
+- Logging and Monitoring Policy.
+- System logging configuration reports.
+- Security event logs.
+- Log retention configuration.
+- Log access control records.
+- Log monitoring reports or dashboards.
+- Security event investigation records.
+- Evidence of log review and monitoring activities.
+
+**Sample Testing Approach:**
+
+For this illustrative assessment, select the following samples:
+
+| Sample | Sample Size | Testing Objective |
+|---|---:|---|
+| Critical systems | 3 | Verify relevant logging configuration |
+| Security log records | 10 records | Verify recording of relevant security events |
+| Log monitoring reviews | 2 review records | Verify monitoring and review activities |
+| Security event investigations | 3 cases | Verify investigation and documentation |
+
+The sample sizes are illustrative and should be adjusted based on the system population, risk, and audit methodology.
+
+**Assessment Considerations:**
+
+Evaluate whether relevant security events are logged, logs are appropriately protected and retained, and monitoring activities are performed according to defined requirements.
+
+Investigate gaps in logging coverage, inadequate log protection, missing monitoring evidence, and unresolved security events.
+
+**Preliminary Assessment Status:** Not Tested.
