@@ -758,3 +758,201 @@ The risk ratings above are illustrative judgments based on the hypothetical scen
 The risk scores in this portfolio are illustrative and do not represent actual residual risk or risk acceptance decisions.
 
 In an actual engagement, risk assessment should consider existing safeguards, business impact, likelihood, relevant threat scenarios, and the organization's established risk assessment methodology.
+
+
+
+## 12. Illustrative Audit Testing Results Workpaper
+
+**Assessment Disclaimer:** The following testing results are hypothetical examples created to demonstrate audit documentation techniques. No actual organizational evidence was obtained or independently verified.
+
+### 12.1 Control Testing Summary
+
+| Control ID | Sample Selected | Illustrative Evidence Examined | Illustrative Test Result |
+|---|---:|---|---|
+| 5.15 | 10 user accounts | User access listing and approval records | 9 approvals available; 1 unavailable |
+| 5.18 | 11 samples across 3 populations | Employee records, access listings, access review records | 1 delayed revocation; incomplete review evidence |
+| 5.23 | 3 cloud providers, 2 services | Cloud inventory, agreements, responsibility documentation | Responsibility matrix unavailable |
+| 8.2 | 5 privileged accounts | Administrator listing, approval records, review records | 1 approval unavailable; 1 review record unavailable |
+| 8.13 | 10 backup jobs | Backup job reports and resolution records | 1 failed job without resolution evidence |
+| 8.15 | 3 systems | Logging configurations and monitoring records | 1 system without available monitoring evidence |
+
+**Note:** Sample populations, evidence, and outcomes are illustrative assumptions. They are not actual audit test results.
+
+### 12.2 Detailed Testing Record – Control 5.15
+
+**Control:** Access Control
+
+**Sample Size:** 10 user accounts
+
+**Evidence Considered:**
+- User access listing.
+- User access request records.
+- Management approval records.
+
+**Testing Procedure:**
+
+Compared selected user accounts against access request and approval records to assess whether access provisioning was appropriately authorized.
+
+**Illustrative Results:**
+
+| Test Reference | Expected Evidence | Illustrative Result |
+|---|---|---|
+| AC-01 | Approved access request | Pass |
+| AC-02 | Approved access request | Pass |
+| AC-03 | Approved access request | Exception |
+| AC-04 to AC-10 | Approved access requests | Pass |
+
+**Illustrative Exception:** Approval evidence unavailable for one sampled account.
+
+**Auditor Conclusion:** An approval evidence gap was identified in the hypothetical sample. Further investigation would be required to establish whether access was unauthorized.
+
+### 12.3 Detailed Testing Record – Control 5.18
+
+**Control:** Access Rights
+
+**Sample Size:** 11 samples across three populations.
+
+**Evidence Considered:**
+- Employee master list.
+- Application user access listing.
+- Termination records.
+- Access modification records.
+- Periodic access review records.
+
+**Testing Procedure:**
+
+Compared employee status and job responsibilities with assigned application access. Reviewed selected termination and access review records to assess whether access rights were appropriately modified or revoked.
+
+**Illustrative Results:**
+
+| Test Reference | Expected Result | Illustrative Result |
+|---|---|---|
+| Joiner samples (5) | Approved access | Approval available |
+| Mover samples (3) | Appropriate access modification | Records available |
+| Leaver samples (3) | Timely access revocation | 1 account remained active for 3 days |
+| Access review | Documented periodic review | Incomplete evidence |
+
+**Illustrative Exception:** One terminated employee's account remained active for three days, and periodic review evidence was incomplete.
+
+**Auditor Conclusion:** The hypothetical results indicate weaknesses in access removal and review documentation. Further investigation would be required to determine the full extent of the exceptions.
+
+### 12.4 Detailed Testing Record – Control 5.23
+
+**Control:** Information Security for Use of Cloud Services
+
+**Evidence Considered:**
+- Cloud service inventory.
+- Cloud provider security assessment records.
+- Cloud service agreements.
+- Shared responsibility documentation.
+
+**Testing Procedure:**
+
+Reviewed cloud service governance documentation to determine whether security responsibilities were defined and assigned between the organization and its cloud service providers.
+
+**Illustrative Result:**
+
+A documented cloud security responsibility matrix was unavailable in the hypothetical scenario.
+
+**Illustrative Exception:** Formal documentation of cloud security responsibilities was missing.
+
+**Auditor Conclusion:** The absence of a documented responsibility matrix may create uncertainty over security ownership. Further evidence should be obtained to determine whether responsibilities are defined through other approved documents or arrangements.
+
+### 12.5 Detailed Testing Record – Control 8.2
+
+**Control:** Privileged Access Rights
+
+**Sample Size:** 5 privileged accounts
+
+**Evidence Considered:**
+- Privileged account listing.
+- Privileged access approval records.
+- Periodic privileged access review records.
+
+**Testing Procedure:**
+
+Compared privileged user accounts against authorization records and periodic review evidence to evaluate whether elevated access was appropriately approved and reviewed.
+
+**Illustrative Results:**
+
+| Test Reference | Expected Evidence | Illustrative Result |
+|---|---|---|
+| PA-01 | Approval and review evidence | Available |
+| PA-02 | Approval and review evidence | Available |
+| PA-03 | Approval evidence | Unavailable |
+| PA-04 | Periodic review evidence | Unavailable |
+| PA-05 | Approval and review evidence | Available |
+
+**Illustrative Exceptions:**
+- Approval evidence unavailable for one privileged account.
+- Periodic review evidence unavailable for another account.
+
+**Auditor Conclusion:** The hypothetical sample indicates gaps in privileged access authorization and review documentation.
+
+### 12.6 Detailed Testing Record – Control 8.13
+
+**Control:** Information Backup
+
+**Sample Size:** 10 backup jobs
+
+**Evidence Considered:**
+- Backup schedules.
+- Backup job status reports.
+- Backup failure investigation records.
+- Restoration test reports.
+
+**Testing Procedure:**
+
+Reviewed selected backup job records to assess whether backup activities were completed according to defined schedules and whether failed jobs were appropriately investigated and resolved.
+
+**Illustrative Result:**
+
+One sampled backup job failed, and evidence of investigation or successful re-execution was unavailable.
+
+**Illustrative Exception:** Backup failure resolution was not evidenced.
+
+**Auditor Conclusion:** The hypothetical exception indicates a weakness in backup failure monitoring and resolution. Further verification of alternative backup availability and data recoverability would be required.
+
+### 12.7 Detailed Testing Record – Control 8.15
+
+**Control:** Logging
+
+**Sample Size:** 3 critical applications
+
+**Evidence Considered:**
+- System logging configurations.
+- Security event logs.
+- Log monitoring reports.
+- Security event investigation records.
+
+**Testing Procedure:**
+
+Reviewed selected application logging configurations and monitoring records to determine whether relevant security events were recorded and monitored in accordance with defined requirements.
+
+**Illustrative Results:**
+
+| Application | Logging Configuration | Monitoring Evidence |
+|---|---|---|
+| Application A | Enabled | Available |
+| Application B | Enabled | Unavailable |
+| Application C | Enabled | Available |
+
+**Illustrative Exception:** Monitoring evidence was unavailable for Application B.
+
+**Auditor Conclusion:** Although logging was enabled in the hypothetical scenario, evidence of monitoring was unavailable for one application. Additional investigation would be necessary to determine whether monitoring was performed through another mechanism.
+
+### 12.8 Overall Testing Limitations
+
+The illustrative testing records are designed to demonstrate sample-based audit documentation.
+
+In an actual assessment, the auditor should:
+
+1. Obtain complete and reliable audit populations.
+2. Document the sample selection methodology.
+3. Retain appropriate supporting evidence.
+4. Investigate identified exceptions.
+5. Obtain management explanations where necessary.
+6. Evaluate the impact of exceptions on control effectiveness.
+7. Document the final audit conclusion.
+
+**Workpaper Status:** Illustrative Audit Testing Documentation – Not Based on Actual Evidence.
