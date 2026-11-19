@@ -703,3 +703,58 @@ The illustrative recommendations focus on strengthening control documentation, a
 In an actual audit engagement, management responses, supporting evidence, remediation commitments, and follow-up testing would be required before closing findings.
 
 **Assessment Status:** Simulated Portfolio Assessment – Not an Actual Audit.
+
+
+
+## 11. Risk Rating Methodology
+
+**Disclaimer:** This risk rating methodology is illustrative and is used solely for this portfolio assessment.
+
+### 11.1 Risk Scoring Criteria
+
+Each illustrative finding is assessed based on likelihood and impact.
+
+**Likelihood:**
+
+| Rating | Score | Description |
+|---|---:|---|
+| Low | 1 | The event is unlikely to occur under existing circumstances. |
+| Medium | 2 | The event may occur under existing circumstances. |
+| High | 3 | The event is likely to occur or has a significant likelihood of recurrence. |
+
+**Impact:**
+
+| Rating | Score | Description |
+|---|---:|---|
+| Low | 1 | Limited impact on business operations or information security. |
+| Medium | 2 | Moderate impact on business operations, information, or compliance. |
+| High | 3 | Significant impact on business operations, sensitive information, or critical systems. |
+
+### 11.2 Risk Calculation
+
+Risk Score = Likelihood Score × Impact Score
+
+| Risk Score | Risk Rating | Remediation Priority |
+|---|---|---|
+| 1–2 | Low | Routine monitoring and management |
+| 3–4 | Medium | Planned corrective action |
+| 6–9 | High | Prioritized corrective action |
+
+### 11.3 Illustrative Risk Assessment of Findings
+
+| Finding ID | Likelihood | Impact | Risk Score | Risk Rating |
+|---|---:|---:|---:|---|
+| F-01 | 2 | 2 | 4 | Medium |
+| F-02 | 3 | 3 | 9 | High |
+| F-03 | 2 | 2 | 4 | Medium |
+| F-04 | 2 | 3 | 6 | High |
+| F-05 | 2 | 3 | 6 | High |
+| F-06 | 2 | 2 | 4 | Medium |
+
+The risk ratings above are illustrative judgments based on the hypothetical scenarios described in this portfolio. In an actual audit, likelihood and impact should be assessed using organizational risk criteria, relevant business context, supporting evidence, and management input where appropriate.
+
+### 11.4 Risk Assessment Limitations
+
+The risk scores in this portfolio are illustrative and do not represent actual residual risk or risk acceptance decisions.
+
+In an actual engagement, risk assessment should consider existing safeguards, business impact, likelihood, relevant threat scenarios, and the organization's established risk assessment methodology.
