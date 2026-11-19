@@ -530,3 +530,176 @@ The results are hypothetical and do not constitute actual control testing conclu
 For this portfolio scenario, the selected controls are classified as Partially Effective based on the hypothetical exceptions described in the individual control assessment sections.
 
 This classification is illustrative only. In an actual assessment, control ratings should be assigned based on evidence reviewed, testing performed, exception evaluation, and the applicable assessment methodology.
+
+
+
+## 8. Illustrative Audit Findings Register
+
+**Disclaimer:** The findings below are simulated and are provided solely to demonstrate audit documentation and reporting methodology.
+
+| Finding ID | Control Reference | Finding Title | Risk Rating |
+|---|---|---|---|
+| F-01 | 5.15 | Missing User Access Approval Evidence | Medium |
+| F-02 | 5.18 | Delayed Access Revocation and Incomplete Access Review Evidence | High |
+| F-03 | 5.23 | Missing Documented Cloud Security Responsibilities | Medium |
+| F-04 | 8.2 | Privileged Access Approval and Review Gaps | High |
+| F-05 | 8.13 | Unresolved Backup Job Failure | High |
+| F-06 | 8.15 | Insufficient Evidence of Security Log Monitoring | Medium |
+
+### 8.1 Finding F-01 – Missing User Access Approval Evidence
+
+**Control Reference:** Annex A 5.15 – Access Control
+
+**Risk Rating:** Medium
+
+**Observation:**
+
+In the simulated testing scenario, approval evidence was unavailable for one sampled user account.
+
+**Risk:**
+
+Unauthorized or inappropriate access may be granted without proper management oversight.
+
+**Recommendation:**
+
+Implement a formal user access approval process and retain approval evidence for all access provisioning activities.
+
+**Suggested Corrective Action:**
+
+Require documented approval from the designated manager or application owner before access is provisioned.
+
+### 8.2 Finding F-02 – Delayed Access Revocation and Incomplete Access Review Evidence
+
+**Control Reference:** Annex A 5.18 – Access Rights
+
+**Risk Rating:** High
+
+**Observation:**
+
+In the simulated testing scenario, one terminated employee's account remained active for three days after termination, and evidence of periodic access review was incomplete.
+
+**Risk:**
+
+Former employees may retain access to company systems and sensitive information, while excessive or inappropriate access may remain undetected.
+
+**Recommendation:**
+
+Strengthen the employee termination and periodic access review processes.
+
+**Suggested Corrective Action:**
+
+Implement automated or formal HR-to-IT notifications, establish access revocation timelines, and maintain documented periodic access review records.
+
+### 8.3 Finding F-03 – Missing Documented Cloud Security Responsibilities
+
+**Control Reference:** Annex A 5.23 – Information Security for Use of Cloud Services
+
+**Risk Rating:** Medium
+
+**Observation:**
+
+In the simulated testing scenario, a documented cloud security responsibility matrix was unavailable.
+
+**Risk:**
+
+Security responsibilities between the organization and cloud service providers may not be clearly assigned, increasing the risk of security control gaps.
+
+**Recommendation:**
+
+Establish and formally approve a cloud security responsibility matrix.
+
+**Suggested Corrective Action:**
+
+Document responsibilities for cloud access management, configuration security, monitoring, data protection, backup, incident response, and service termination.
+
+### 8.4 Finding F-04 – Privileged Access Approval and Review Gaps
+
+**Control Reference:** Annex A 8.2 – Privileged Access Rights
+
+**Risk Rating:** High
+
+**Observation:**
+
+In the simulated testing scenario, approval evidence was unavailable for one privileged account, and periodic review evidence was unavailable for another sampled account.
+
+**Risk:**
+
+Unauthorized or excessive privileged access may result in security control bypass, unauthorized configuration changes, or misuse of sensitive information.
+
+**Recommendation:**
+
+Strengthen privileged access authorization, review, and monitoring processes.
+
+**Suggested Corrective Action:**
+
+Maintain a privileged account inventory, require documented authorization, conduct periodic privileged access reviews, and monitor privileged activities.
+
+### 8.5 Finding F-05 – Unresolved Backup Job Failure
+
+**Control Reference:** Annex A 8.13 – Information Backup
+
+**Risk Rating:** High
+
+**Observation:**
+
+In the simulated testing scenario, one sampled backup job failed, and evidence of resolution was unavailable.
+
+**Risk:**
+
+Critical information may not be recoverable if backup failures remain unresolved.
+
+**Recommendation:**
+
+Implement a backup failure monitoring and resolution process.
+
+**Suggested Corrective Action:**
+
+Require backup job monitoring, documented investigation of failures, corrective actions, and confirmation of successful backup completion.
+
+### 8.6 Finding F-06 – Insufficient Evidence of Security Log Monitoring
+
+**Control Reference:** Annex A 8.15 – Logging
+
+**Risk Rating:** Medium
+
+**Observation:**
+
+In the simulated testing scenario, an application generated security logs, but evidence of periodic monitoring or review was unavailable.
+
+**Risk:**
+
+Suspicious activities and unauthorized access attempts may not be detected or investigated promptly.
+
+**Recommendation:**
+
+Establish a documented security log monitoring process.
+
+**Suggested Corrective Action:**
+
+Define monitoring responsibilities, review frequency, escalation procedures, and evidence retention requirements.
+
+
+
+
+## 9. Illustrative Corrective Action Tracker
+
+| Finding ID | Recommended Action | Responsible Function | Target Completion | Status |
+|---|---|---|---|---|
+| F-01 | Implement formal user access approval and evidence retention | IT / Application Owner | 30 days | Open |
+| F-02 | Strengthen termination access removal and periodic access review | HR / IT | 30 days | Open |
+| F-03 | Establish and approve cloud security responsibility matrix | IT / Information Security | 45 days | Open |
+| F-04 | Strengthen privileged access approval, review, and monitoring | IT / Information Security | 30 days | Open |
+| F-05 | Implement backup failure investigation and resolution tracking | IT Operations | 15 days | Open |
+| F-06 | Establish documented security log monitoring and review process | IT / Information Security | 30 days | Open |
+
+**Note:** Target completion periods are illustrative recommendations for this portfolio scenario. Actual deadlines should be agreed upon with management based on risk, business requirements, and remediation feasibility.
+
+## 10. Assessment Conclusion
+
+The simulated assessment identified potential weaknesses across selected information security controls relating to user access management, privileged access, cloud security governance, backup management, and security log monitoring.
+
+The illustrative recommendations focus on strengthening control documentation, authorization processes, monitoring activities, evidence retention, and corrective action management.
+
+In an actual audit engagement, management responses, supporting evidence, remediation commitments, and follow-up testing would be required before closing findings.
+
+**Assessment Status:** Simulated Portfolio Assessment – Not an Actual Audit.
